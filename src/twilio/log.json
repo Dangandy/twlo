@@ -1,0 +1,24 @@
+{
+  "accountSid": "ACefdbea95f2b349fb83318eb3e8d5b5bd",
+  "apiVersion": "2010-04-01",
+  "body": "test123",
+  "dateCreated": "2019-07-29T15:28:44.000Z",
+  "dateUpdated": "2019-07-29T15:28:44.000Z",
+  "dateSent": null,
+  "direction": "outbound-api",
+  "errorCode": null,
+  "errorMessage": null,
+  "from": "+16475030341",
+  "messagingServiceSid": null,
+  "numMedia": "0",
+  "numSegments": "1",
+  "price": null,
+  "priceUnit": "USD",
+  "sid": "SM31e82131fd154c46a64be1d8429e08a2",
+  "status": "queued",
+  "subresourceUris": {
+    "media": "/2010-04-01/Accounts/ACefdbea95f2b349fb83318eb3e8d5b5bd/Messages/SM31e82131fd154c46a64be1d8429e08a2/Media.json"
+  },
+  "to": "+16474716635",
+  "uri": "/2010-04-01/Accounts/ACefdbea95f2b349fb83318eb3e8d5b5bd/Messages/SM31e82131fd154c46a64be1d8429e08a2.json"
+}
