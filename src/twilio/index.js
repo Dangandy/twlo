@@ -24,6 +24,11 @@ router
     } catch (error) {
       console.log(error);
     }
+  })
+  .post("/receive", async ctx => {
+    console.log(ctx.request.body);
+    ctx.response.type = "xml";
+    ctx.response.body = "<Response></Response>";
   });
 
 // exports

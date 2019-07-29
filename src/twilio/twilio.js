@@ -20,6 +20,8 @@ async function sendSMS(body) {
 
 async function receiveSMS(body) {
   try {
+    console.log(body);
+    // parse body
   } catch (error) {
     console.log(error);
   }
@@ -39,5 +41,6 @@ const main = async () => {
 
 // export
 module.exports = {
-  sendSMS
+  sendSMS,
+  receiveSMS
 };
