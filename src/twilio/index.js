@@ -26,7 +26,7 @@ router
     }
   })
   .post("/receive", async ctx => {
-    console.log(ctx.request.body);
+    console.log(ctx.request);
     ctx.response.type = "xml";
     ctx.response.body = "<Response></Response>";
   });
