@@ -3,7 +3,7 @@ const Router = require("koa-router");
 const koaBody = require("koa-body");
 
 // local libraries
-const { sendSMS } = require("./twilio");
+const { sendSMS, receiveSMS } = require("./twilio");
 
 // init
 const router = new Router({ prefix: "/twlo" });
@@ -27,6 +27,7 @@ router
   })
   .post("/receive", koaBody(), async ctx => {
     console.log(ctx.request.body);
+    await receiveSMS(ctx.request.body);
     ctx.response.type = "xml";
     ctx.response.body = "<Response></Response>";
   });
